@@ -1,0 +1,24 @@
+<svg width="620" height="70" viewBox="0 0 620 70" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.5" stop-color="#f778ba"/>
+      <stop offset="1" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="pShine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="pClip">
+      <text x="310" y="46" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="bold">Abubakar Musa</text>
+    </clipPath>
+  </defs>
+
+  <text x="310" y="46" text-anchor="middle" font-family="Consolas, Menlo, monospace" font-size="30" font-weight="bold" fill="url(#pg)">Abubakar Musa</text>
+  <g clip-path="url(#pClip)">
+    <rect y="-10" height="90" width="120" fill="url(#pShine)">
+      <animateTransform attributeName="transform" type="translate" from="-180 0" to="640 0" dur="3.4s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
